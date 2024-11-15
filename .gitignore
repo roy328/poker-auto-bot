@@ -7,3 +7,4 @@ default.log
 env
 __pycache__/
 log/*.log
+venv/
