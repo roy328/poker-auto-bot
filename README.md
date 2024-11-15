@@ -1,5 +1,3 @@
-![Poker](media/cowboy_bebop_poker.gif)
-
 ## GTO Poker Bot
 
 <!-- 
@@ -62,8 +60,6 @@ You can test the performance of the 3 different agents playing each other by run
 python evaluate.py
 ```
 
-![Results](media/evaluator.png)
-
 **Results after 1000 hands:**
 
 DQN Agent Wins: 51
@@ -80,41 +76,4 @@ Ties: 16
 GPT-V is used to extract the game state from the screenshots. The extracted information is then used to make decisions based on the current state of the game. Here is an example of the screenshot sent to GPT-V:
 
 
-![Demo gif](media/demo.gif)
-
 Example of the screenshot sent to GPT-V:
-
-![Bot](media/ocr_image_output.png)
-
-Read more in our [technical report](./report/GTOPokerFinalProjectReport481.pdf).
-
-
-### Repository Structure
----
-
-* [gamer/](./gamer)
-  * [adapter.py](./gamer/adapter.py)
-  * [api.py](./gamer/api.py)
-  * [config.py](./gamer/config.py)
-  * [fixed.py](./gamer/fixed.py)
-  * [operating_system.py](./gamer/operating_system.py)
-  * [prompts.py](./gamer/prompts.py)
-  * [tools.py](./gamer/tools.py)
-  * [utils.py](./gamer/utils.py)
-* [media/](./media)
-  * [cowboy_bebop_poker.gif](./media/cowboy_bebop_poker.gif)
-* [report/](./report)
-  * [proposal/](./report/proposal)
-    * [CSC481_Project_Proposal.pdf](./report/proposal/CSC481_Project_Proposal.pdf)
-    * [projectproposal.md](./report/proposal/projectproposal.md)
-  * [481_report.md](./report/481_report.md)
-  * [487_report.md](./report/487_report.md)
-  * [final_presentation.pdf](./report/final_presentation.pdf)
-* [.env](./.env)
-* [.gitignore](./.gitignore)
-* [README.md](./README.md)
-* [dqn_agent.py](./dqn_agent.py)
-* [evaluate.py](./evaluate.py)
-* [play.py](./play.py)
-* [random_agent.py](./random_agent.py)
-* [requirements.txt](./requirements.txt)
